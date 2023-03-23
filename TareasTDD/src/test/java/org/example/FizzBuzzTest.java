@@ -71,4 +71,11 @@ class FizzBuzzTest {
         assertEquals("Fizz", valorInicial);
     }
 
+    @Test
+    void testearNumero10() {
+        String valorInicial = FizzBuzz.returnNumber(10);
+
+        assertEquals("Buzz", valorInicial);
+    }
+
 }
