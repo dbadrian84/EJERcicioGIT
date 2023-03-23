@@ -47,4 +47,11 @@ class TestIniciales {
 
         assertEquals(-1, valorInicial);
     }
+
+    @Test
+    void devuelve5() {
+        Integer valorInicial = operacionesTDD.sumar("5","1001");
+
+        assertEquals(5, valorInicial);
+    }
 }
