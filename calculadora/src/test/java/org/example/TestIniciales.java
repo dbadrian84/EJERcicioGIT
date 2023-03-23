@@ -19,4 +19,18 @@ class TestIniciales {
 
         assertEquals(1, valorInicial);
     }
+
+    @Test
+    void devuelve3() {
+        Integer valorInicial = operacionesTDD.sumar("1","2");
+
+        assertEquals(3, valorInicial);
+    }
+
+    @Test
+    void devuelve4() {
+        Integer valorInicial = operacionesTDD.sumar("1","1","2");
+
+        assertEquals(4, valorInicial);
+    }
 }
