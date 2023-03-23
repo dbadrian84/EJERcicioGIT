@@ -29,4 +29,18 @@ class FizzBuzzTest {
         assertEquals("Fizz", valorInicial);
     }
 
+    @Test
+    void testearNumero4() {
+        String valorInicial = FizzBuzz.returnNumber(4);
+
+        assertEquals("4", valorInicial);
+    }
+
+    @Test
+    void testearNumero5() {
+        String valorInicial = FizzBuzz.returnNumber(5);
+
+        assertEquals("Buzz", valorInicial);
+    }
+
 }
