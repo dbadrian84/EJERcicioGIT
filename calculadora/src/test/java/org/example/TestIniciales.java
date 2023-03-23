@@ -33,4 +33,18 @@ class TestIniciales {
 
         assertEquals(4, valorInicial);
     }
+
+    @Test
+    void devuelveNegativo1() {
+        Integer valorInicial = operacionesTDD.sumar("1","2","");
+
+        assertEquals(-1, valorInicial);
+    }
+
+    @Test
+    void devuelveNegativo1B() {
+        Integer valorInicial = operacionesTDD.sumar("1","-2");
+
+        assertEquals(-1, valorInicial);
+    }
 }
